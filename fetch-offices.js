@@ -169,9 +169,9 @@ async function main() {
         });
       });
 
-      map.setView([20, 10], 2);
+      map.fitWorld();
     });
-  map.setView([20, 10], 2);
+  map.fitWorld();
 <\/script>
 </body>
 </html>`;
